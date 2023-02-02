@@ -37,6 +37,10 @@ header .navbar {
     cursor: pointer;
 }
 
+.navbar ul li a {
+    text-decoration: none;
+}
+
 header .search-box {
     display: flex;
     gap: 30px;
@@ -139,17 +143,28 @@ header .search-box {
  footer {
     display: flex; 
     align-items: center;
+    padding: 75px 0;
     justify-content: space-around;
 }
 
 footer p {
     font-weight: 600;
-    margin-top: 120px;
-    position: relative;
-    right: 288px;   
 }
 
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
 
+footer ul li {
+    font-size: 1.6rem;
+}
+
+footer ul li a i:hover {
+    color: rgb(18, 155, 155);
+    text-decoration: underline;
+}
 
 
 
