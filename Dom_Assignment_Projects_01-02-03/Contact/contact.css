@@ -1,0 +1,48 @@
+
+body {
+    display: block;
+}
+
+.mainWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.mainleft, .mainright {
+    width: 30%;
+    border: 2px solid #ffffff;
+}
+
+.mainright h2, .mainleft h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mainRightDetails, .mainLeftDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    font-weight: 600;
+}
+
+.mainWrapper input {
+    padding: 4px 10px;
+}
+
+.mainWrapper textarea {
+    padding: 5px 10px;
+    height: 100px;
+    resize: none;
+}
+
+.mainLeftDetails p:last-child {
+    height: 100px;
+}
+
+.mainRightDetails button, .mainLeftDetails button {
+    margin: auto;
+}
