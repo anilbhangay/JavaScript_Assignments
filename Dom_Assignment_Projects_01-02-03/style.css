@@ -34,8 +34,14 @@ header .navbar {
 
 .navbar ul li {
     list-style: none;
+    font-size: 17px;
     font-weight: 500;
     cursor: pointer;
+}
+
+.navbar ul li:hover {
+    text-decoration: underline;
+    font-weight: 700;
 }
 
 .navbar ul li a {
