@@ -172,7 +172,7 @@ body {
     color: #4facff;
 }
 
-.clash-card div:nth-child(3) {
+.title {
     font-size: 26px;
     color: black;
     font-weight: 900;
@@ -182,4 +182,8 @@ body {
 .clash-card_unit-description {  
   padding: 20px;
   margin-bottom: 10px;
+}
+
+.clash-card_barbarian-clearfix .one-third .stat {
+    border-right: 1px solid #bd7c2f;
 }
