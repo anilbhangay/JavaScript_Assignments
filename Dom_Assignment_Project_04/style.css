@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
-*,
+/* *,
 *:before,
 *:after {
   box-sizing: border-box;
-}
+} */
 
 body {
      background: url("./Assets/coc-background.jpg") no-repeat center center fixed;
@@ -184,6 +184,4 @@ body {
   margin-bottom: 10px;
 }
 
-.clash-card_barbarian-clearfix .one-third .stat {
-    border-right: 1px solid #bd7c2f;
-}
+
