@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
-/* *,
+*,
 *:before,
 *:after {
   box-sizing: border-box;
-} */
+}
 
 body {
      background: url("./Assets/coc-background.jpg") no-repeat center center fixed;
@@ -172,11 +172,32 @@ body {
     color: #4facff;
 }
 
-.title {
+
+.clash-card div:nth-child(3) {
     font-size: 26px;
     color: black;
     font-weight: 900;
     margin-bottom: 5px;
+}
+
+.clash-card__unit-stats--barbarian .one-third {
+    border-right: 1px solid #bd7c2f;
+}
+
+.clash-card__unit-stats--archer .one-third {
+    border-right: 1px solid #d04976;
+}
+
+.clash-card__unit-stats--giant .one-third {
+    border-right: 1px solid #de7b09;
+}
+
+.clash-card__unit-stats--goblin .one-third {
+    border-right: 1px solid #71a32a;
+}
+
+.clash-card__unit-stats--wizard .one-third {
+    border-right: 1px solid #309eff;
 }
 
 .clash-card_unit-description {  
@@ -184,4 +205,57 @@ body {
   margin-bottom: 10px;
 }
 
+.clash-card__unit-stats {
+    font-weight: 700;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
 
+.clash-card__unit-stats .one-third {
+    width: 33%;
+    float: left;
+    padding: 20px 15px;
+}
+
+.clash-card__unit-stats sup {
+    position: absolute;
+    bottom: 4px;
+    font-size: 45%;
+    margin-left: 2px;
+}
+
+.clash-card__unit-stats .stat {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.clash-card__unit-stats .stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.clash-card__unit-stats .no-border {
+    border-right: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.slick-prev {
+    left: 100px;
+    z-index: 999;
+  }
+  
+
+   .slick-next {
+    right: 100px;
+    z-index: 999;
+  }
