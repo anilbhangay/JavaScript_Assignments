@@ -6,7 +6,7 @@
 
 body {
       background-color: #dddddd;
-      max-width: 1400px;
+      max-width: 1440px;
       margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@ a {
 .recipes-container {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     gap: 10px;
 }
 
@@ -110,7 +110,7 @@ a {
 }
 
 .recipe-img {
-    /* width: 100%; */
+    width: 100%;
     height: 200px;
 }
 
