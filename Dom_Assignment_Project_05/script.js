@@ -17,7 +17,6 @@ list.appendChild(newlist);
 
 
 //Added colors in recipe-gallery cards
-let color = document.querySelector(".recipe-gallery .card ").style.color = "#6f2f92";
-
+let color = document.getElementsByClassName("card recipe-text").style.color = "#6f2f92";
 
 
