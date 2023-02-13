@@ -36,8 +36,3 @@ var last = document.querySelector(".clash-card__unit-stats--barbarian .no-border
  jk.style.color = "white";
 
  var kkk = document.querySelector(".clash-card__unit-stats--wizard .no-border").style.color = "white";
-
-
- //Changing all clash cards in flex 
- let doc = document.querySelector(".container-all");
- doc.style.display =  "flex";

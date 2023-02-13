@@ -1,3 +1,23 @@
-let set = document.querySelector(".tags-container a");
-let det = document.createElement = "<a> Chinise (7)</a>";
-det.document.body.appendChild(set);
+
+//Creating one more button named "Pro Subscription"
+let button = document.createElement('a');
+button.innerHTML = "<a>Pro Subscription</a>";
+button.className = "btn";
+button.href = "index.html";
+let btn = document.querySelector(".btn-1");
+btn.appendChild(button);
+
+
+//Added new list in Recipes 
+let newlist = document.createElement('a');
+newlist.innerHTML = "<a> Chinese (7)</a>"
+newlist.href = "#";
+let list = document.querySelector(".tags-container .list-r");
+list.appendChild(newlist);
+
+
+//Added colors in recipe-gallery cards
+let color = document.querySelector(".recipe-gallery .card ").style.color = "#6f2f92";
+
+
+
