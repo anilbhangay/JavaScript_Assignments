@@ -17,7 +17,41 @@ list.appendChild(newlist);
 
 
 //Added colors in recipe-gallery cards
-let color = document.querySelector(".recipe-text").style.color = "#6f2f92";
-let  = 
+let colors = document.querySelector(".recipe-text");
+colors.style.color = "#6f2f92";
+
+
+//Create 6th Card in Recipe-gallery
+var main = document.querySelector(".recipe-gallery");
+
+var card = document.createElement("div");
+card.classList.add("card");
+
+var link = document.createElement("a");
+link.href = "#";
+link.classList.add("recipe-text-6");
+
+var image = document.createElement("img");
+image.src="./img/idly.jpeg";
+image.classList.add("recipe-img");
+
+var heading = document.createElement("h5");
+heading.textContent = "Idly Sambhar";
+heading.classList.add("recipe-name");
+
+var paragraph = document.createElement("p");
+paragraph.textContent = "Prep : 5min | Cook : 15min";
+paragraph.classList.add("recipe-dish");
+
+
+link.appendChild(image);
+link.appendChild(heading);
+link.appendChild(paragraph);
+
+card.appendChild(link);
+card.appendChild(main);
+
+
+
 
 

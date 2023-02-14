@@ -6,7 +6,7 @@ color.style.color = "white";
 var last = document.querySelector(".clash-card__unit-stats--barbarian .no-border").style.color = "white";
 
 
- //Changing background color of archer clash card
+//  //Changing background color of archer clash card
  let paint = document.querySelector(".clash-card__unit-stats--archer");
  paint.style.backgroundColor = "#ee5487";
  paint.style.color = "white";
