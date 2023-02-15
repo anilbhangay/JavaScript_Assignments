@@ -17,41 +17,19 @@ list.appendChild(newlist);
 
 
 //Added colors in recipe-gallery cards
-let colors = document.querySelector(".recipe-text");
+let colors = document.querySelectorAll(".recipe-text");
 colors.style.color = "#6f2f92";
 
 
 //Create 6th Card in Recipe-gallery
-var main = document.querySelector(".recipe-gallery");
+let card = document.createElement("div");
+card.className.add("card");
 
-var card = document.createElement("div");
-card.classList.add("card");
-
-var link = document.createElement("a");
+let link = document.createElement("a");
 link.href = "#";
-link.classList.add("recipe-text-6");
-
-var image = document.createElement("img");
-image.src="./img/idly.jpeg";
-image.classList.add("recipe-img");
-
-var heading = document.createElement("h5");
-heading.textContent = "Idly Sambhar";
-heading.classList.add("recipe-name");
-
-var paragraph = document.createElement("p");
-paragraph.textContent = "Prep : 5min | Cook : 15min";
-paragraph.classList.add("recipe-dish");
-
-
-link.appendChild(image);
-link.appendChild(heading);
-link.appendChild(paragraph);
-
-card.appendChild(link);
-card.appendChild(main);
-
-
+link.className.add("recipe-text-5");
+link.innerHTML = '<img src="./img/idly.jpeg" class="recipe-img">' + '<h5 class="recipe-name">Idly Sambhar</h5>' + '<p class="recipe-dish">Prep : 5min | Cook : 15min</p>';
+let main = document.querySelector(".recipe-gallery");
 
 
 
