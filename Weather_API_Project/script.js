@@ -12,6 +12,9 @@ let weatherStatus = document.getElementById("weatherStatus");
 const getData = (event) => {
      event.preventDefault();
      if(!inputBox.value) {
-         alert("Please Enter the city name");
+         alert("Please Enter the city name: ");
+          return;
      }
-}
+
+     const city = inputBox.value;
+};
