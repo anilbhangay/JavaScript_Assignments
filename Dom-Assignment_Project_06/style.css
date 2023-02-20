@@ -111,7 +111,10 @@ header{
 }
 
 .top-img {
-    display: none;
+    display: block;
+    position: absolute;
+    right: -30px;
+    top: -60px;
 }
 
 /*Hero */
@@ -127,14 +130,14 @@ h2 {font-size: 36px;}
     background-color: var(--color5);
     position: relative;
     border-radius: 15px;
-    margin-top: 50px;
+    margin-top: 20px;
     z-index: 2;
 }
 
 .app_img img {
     max-width: 200px;
     margin: 0 auto;
-    margin-top: -70px;
+    margin-top: -92px;
 }
 
 .app_info {
@@ -198,7 +201,7 @@ footer {
         line-height: 28px;
     }
     .top_img {
-        display:block;
+        display: block;
         position: absolute;
         right: -30px;
         top: -60px;
@@ -229,10 +232,10 @@ footer {
 
 
 @media (min-width: 1024px) {
-    html, body{
-        background-image: url(../assets/bg-main-desktop.png);
-        background-position: center;
-    }
+    /* html, body {
+        /* background-image: url(../assets/bg-main-desktop.png); */
+        /* background-position: center; 
+    } */
 
     .hero {
         max-width: 85vw;
@@ -251,13 +254,14 @@ footer {
     .app_info {
         position: absolute;
         margin: unset;
-        top: 0px;
+        top: 215px;
         right: 90px;
         max-width: 446px;
     }
 
     .app {
         position: relative;
+        margin: auto 75px;
     }
 
     footer {
