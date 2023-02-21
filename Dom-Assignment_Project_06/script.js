@@ -22,6 +22,10 @@ price.innerHTML = "$10";
 // Adding new social icon in footer
 const icon = document.createElement('div');
 icon.className = 'footer_social_ico';
-const i = document.createElement('i');
-i.className = "fa-brands fa-linkedin";
+const ic = document.createElement('i');
+ic.className = "fa-brands fa-linkedin";
+const socio = document.querySelector('footer .footer_social');
+socio.appendChild(icon);
+socio.appendChild(ic);
+icon.appendChild(ic);
 
