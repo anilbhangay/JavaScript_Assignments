@@ -107,7 +107,8 @@ section {padding: 34px 0;}
 
 /*Header */
 header{
-    padding: 39px 0;
+    padding-top: 65px;
+    margin-left: 72px;
 }
 
 .top-img {
@@ -137,7 +138,7 @@ h2 {font-size: 36px;}
 .app_img img {
     max-width: 200px;
     margin: 0 auto;
-    margin-top: -92px;
+    margin-top: -90px;
 }
 
 .app_info {
@@ -208,6 +209,7 @@ footer {
     }
     .hero {
         max-width: 520px;
+        margin: 30px 70px;
     }
     .app_img {
         min-height: 600px;
