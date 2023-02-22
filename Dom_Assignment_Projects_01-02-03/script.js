@@ -10,7 +10,7 @@ ul.appendChild(list);
 //Change the placeholder message.
 let txt = document.querySelector(".search-box input");
 txt.placeholder = "Search My Project";
-
+ 
 
 
 //Change the text in paragraph.
@@ -19,9 +19,11 @@ element[1].innerText = "an Employee";
 element[2].innerText = "iNeuron Intelligence Pvt Ltd";
 
 
+
 //Change the Avtar with image of "Hitesh sir".
 var person = document.querySelector(".hero-right-section img");
 person.src="./person-image.jpg";
+
 
 
 //Create one more button named "Support Me".
