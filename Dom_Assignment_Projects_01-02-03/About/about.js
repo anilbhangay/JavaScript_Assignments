@@ -19,7 +19,6 @@ heading.forEach((element)=> {element.style.backgroundColor="#dadaf8"});
 parag.forEach((element)=> {element.style.backgroundColor="#eeeeff"});
 
 
-
 // Adding new accordian to the page.
 let parent = document.querySelector(".accordian-wrapper");
 let element = document.createElement("div");
