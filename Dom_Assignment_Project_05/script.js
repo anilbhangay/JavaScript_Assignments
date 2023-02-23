@@ -21,7 +21,7 @@ const blue = document.querySelector('.recipe-gallery .card');
 blue.style.color = '#551a8b';
 
 
-//Create 6th Card in Recipe-gallery
+//Created 6th Card in Recipe-gallery
 const card = document.createElement('div');
 card.className = 'card';
 const at = document.createElement('a');
@@ -37,10 +37,11 @@ const para = document.createElement('p');
 para.className = 'recipe-dish';
 para.innerHTML = 'Prep : 10min | Cook : 15min';
 const main = document.querySelector('.recipe-gallery');
-
 main.appendChild(card);
 main.appendChild(at);
 card.appendChild(at);
 at.appendChild(imgs);
 at.appendChild(head);
 at.appendChild(para);
+
+
