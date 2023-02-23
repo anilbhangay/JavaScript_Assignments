@@ -57,7 +57,7 @@ For Paragraph: **#eeeeff**
 ### Project Solution
 ![task-7_solution](https://user-images.githubusercontent.com/107872928/220729553-c53ee4ef-3ede-4233-9919-2e7e7ed99f95.png)
 
-# Task 2
+## Task 2
 - in this task the user has to add a **new accordian** at the button, similar to the output image. After which he also needs to change the heading and paragraph color again.
 #### After Update 
 ![task2Output](https://user-images.githubusercontent.com/107872928/220734858-c282d9c2-b84a-409a-9f12-be4622df2ce9.png)
@@ -69,7 +69,7 @@ For Paragraph: **#eeeeff**
 
 # DOM Assignment-3
 
-##Task 1
+## Task 1
 - The user needs to show the data from "User input Board" to "User output Board" like placeholder message.
 #### After Update
 ![task1Output](https://user-images.githubusercontent.com/107872928/220741622-644c8179-926f-4bd5-8229-5a7737d770a4.png)
