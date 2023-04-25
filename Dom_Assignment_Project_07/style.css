@@ -74,16 +74,35 @@ body {
 
 
 .cards {
-    display: flex;
-    margin-top: 12%;
-z
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 150px;
+}
+
 .cards .card-1 {
     background-color: #cad5e2;
-    font-size: 19px;
+    min-height: 200px;
     text-align: center;
-    padding-top: 20px;
-    border-radius: 9px;
+    padding: 1rem;
+    border-radius: 8px;
 }
+
+.cards .card-1 p {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.cards .card-1 a {
+    text-decoration: none;
+    margin-right: 0.3rem;
+}
+
+.cards .card-1 a:hover{
+    text-decoration: underline;
+}
+
 
 .cards .card-2 {
     background-color: #cad5e2;
